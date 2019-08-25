@@ -252,6 +252,7 @@ window.onload = function() {
 	setTimeout(function(){
 		$('.loader').remove();
 	}, 2000)
+console.log("logou");
 
  
 };
@@ -267,3 +268,10 @@ $(window).on("scroll", function (e) {
 	}, 300)
 });
 
+function overAge(){
+	$('#myModal').modal('hide');
+}
+
+function underAge(){
+	window.history.go(-1)
+}

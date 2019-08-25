@@ -445,7 +445,7 @@ blockquote {
 background-attachment: fixed;
 }
 .process {
-	background: url('../img/how-we-do-it.jpg') 0px 0px no-repeat;
+	background: url('../img/tabaco3.jpg') 0px 0px no-repeat;
 	
 background-size: cover;
 background-attachment: fixed;
@@ -534,7 +534,7 @@ background-attachment: fixed;
 	font-size: 30px;
 }
 .heading p {
-	font-size: 16px;
+	font-size: 22px;
 	width: 80%;
 	margin: 0 auto;
 }
@@ -1338,4 +1338,15 @@ RESPONSIVE
 
 .thumb-wrap{
 	margin-bottom: 50px;
+}
+
+.modal-backdrop.in {
+	opacity: 1.5 !important;
+}
+
+.confirmAge{
+	background-image: url('../img/lionInverse.jpg');
+	width: 800px !important;
+	height: 400px !important;
+	position: relative;
 }
