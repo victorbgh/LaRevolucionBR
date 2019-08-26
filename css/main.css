@@ -280,7 +280,7 @@ a:focus {
 }
 .square-l .fa {
 	line-height: 60px;
-	color: #fff;
+	color: #FFCF03;
 }
 .process-item .fa {
 	color: #FFCF03;
@@ -421,7 +421,7 @@ cursor: pointer;
 	width: 100%;
 	height: 100%;
 	display: block;
-	padding-bottom: 50px;
+	/* padding-bottom: 50px; */
 }
 .branded-section h1,
 .branded-section h2,
@@ -455,7 +455,7 @@ background-attachment: fixed;
 	background-image: url('../img/skills.jpg');
 }
 .quote {
-	background-image: url('../img/slider.jpg');
+	background-image: url('../img/tabaco1.jpg');
 }
 .chart {
 	text-align: center;
