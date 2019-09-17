@@ -94,7 +94,7 @@ a:focus {
 }
 
 .home {
-	background: url(../img/lion.jpg) no-repeat top fixed;
+	background: url(../img/lion.jpg	) no-repeat top fixed;
 	position: relative;
 	width: 100%;
 	position: relative;
@@ -454,9 +454,13 @@ background-attachment: fixed;
 .skills {
 	background-image: url('../img/skills.jpg');
 }
-.quote {
-	background-image: url('../img/tabaco1.jpg');
+.quote, .quote h3 {
+	color: #000;
+	font-weight: bold;
+	/* background-image: url('../img/tabaco1.jpg'); */
 }
+
+
 .chart {
 	text-align: center;
 	margin: 0 auto
@@ -1349,4 +1353,26 @@ RESPONSIVE
 	width: 800px !important;
 	height: 400px !important;
 	position: relative;
+}
+
+/* .imglogo{
+	background-image: url('../img/logoL.png') no-repeat;
+	width: 800px !important;
+	height: 400px !important;
+} */
+
+@media (max-width: 708px){
+	.home{
+		height: 441px;
+	}
+}
+
+@media (max-width: 414px){
+	.home{
+		height: 336px !important;
+	}
+}
+
+.fa-bars:before {
+	color: #ffe600 !important;
 }
