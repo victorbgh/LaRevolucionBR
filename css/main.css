@@ -1344,12 +1344,12 @@ RESPONSIVE
 	margin-bottom: 50px;
 }
 
-.modal-backdrop.in {
+.confirmAgeModal.in ~ .modal-backdrop.in{
 	opacity: 1.5 !important;
 }
 
-#detalharProdutos .modal-backdrop.in{
-	opacity: 0 !important;
+.detalharProdutos.in ~ .modal-backdrop.in{
+	opacity: 0.5 !important;
 }
 
 .confirmAge{
@@ -1380,3 +1380,5 @@ RESPONSIVE
 .fa-bars:before {
 	color: #ffe600 !important;
 }
+
+img.img-responsive { display: table-cell; max-width: 100%; }

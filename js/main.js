@@ -170,7 +170,7 @@ function singlePageNav() {
     $(window).scroll(function () {
 
         //Display or hide scroll to top button 
-        if ($(this).scrollTop() > 100) {
+        if ($(this).scrollTop() > 400) {
             $('.scrollup').fadeIn();
         } else {
             $('.scrollup').fadeOut();
@@ -248,12 +248,12 @@ singlePageNav();
 
 window.onload = function() {
  $('#wrapper').removeClass('loading');
- $('.loader').addClass('removing');
-	setTimeout(function(){
+ 	setTimeout(() => {
+	 	$('.loader').addClass('removing');
+	}, 2000);
+ 	setTimeout(function(){
 		$('.loader').remove();
-	}, 2000)
-console.log("logou");
-
+	}, 3000)
  
 };
 //What happen on window resize

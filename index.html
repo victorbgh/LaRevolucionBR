@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>La Revolución | La Revolución</title>
-	<link href='//fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/font-awesome.css">
 	<link rel="stylesheet" href="css/main.css">
@@ -63,7 +63,7 @@
 					<!-- </ul> -->
 				<!-- </div> -->
 			<!-- </div> -->
-			<!-- <a href="#services" class="go-to godown">
+			<a href="#aboutus" class="go-to godown">
 				<span>
 					<span class="fa fa-angle-double-down fa-2x"></span>
 					<span class="fa fa-angle-double-down fa-2x"></span>
@@ -71,7 +71,7 @@
 					<span class="fa fa-angle-double-down fa-2x"></span>
 					<span class="fa fa-angle-double-down fa-2x"></span>
 				</span>
-			</a> -->
+			</a>
 		</section>
 		<section id="aboutus" class="gray">
 			<div class="container ">
@@ -233,10 +233,13 @@
 		 });
    </script>
    
-<div class="modal fade" id="confirmAgeModal" role="dialog" data-backdrop="static">
-	<div class="text-center">
-			<img src="img/lioneadInverse.jpg" class="rounded" alt="..." height="410">
-		  </div>
+<div class="modal fade confirmAgeModal" id="confirmAgeModal" role="dialog" data-backdrop="static">
+	<div class="row">
+		<div class="text-center">
+			<img src="img/lioneadInverse.jpg" class="img-fluid" alt="..." height="410">
+		</div>
+	</div>
+	
 	<div class="container align-middle" style="">
 			<div class="row justify-content-center">
 			<h1 style="color: #fff !important; text-align: center;">Voce possui mais de 18 anos?</h1>
@@ -252,11 +255,11 @@
 	</div>
 </div>
 
-<div class="modal fade" id="detalharProdutos" tabindex="-1" role="dialog" aria-labelledby="detalharProdutos" aria-hidden="true">
+<div class="modal fade detalharProdutos" id="detalharProdutos" tabindex="-1" role="dialog" aria-labelledby="detalharProdutos" aria-hidden="true">
 	<div class="modal-dialog" role="document">
 	  <div class="modal-content">
 		<div class="modal-header">
-		  <h5 class="modal-title" id="exampleModalLabel">Título do modal</h5>
+		  <h5 class="modal-title" id="exampleModalLabel">Detalhes do produto</h5>
 		  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
 			<span aria-hidden="true">&times;</span>
 		  </button>
@@ -265,8 +268,7 @@
 		  ...
 		</div>
 		<div class="modal-footer">
-		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-		  <button type="button" class="btn btn-primary">Salvar mudanças</button>
+		  <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
 		</div>
 	  </div>
 	</div>
