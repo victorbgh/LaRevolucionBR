@@ -445,7 +445,7 @@ blockquote {
 background-attachment: fixed;
 }
 .process {
-	background: url('../img/tabaco3.jpg') 0px 0px no-repeat;
+	background: url('../img/tabaco1.jpg') 0px 0px no-repeat;
 	
 background-size: cover;
 background-attachment: fixed;
@@ -1346,6 +1346,10 @@ RESPONSIVE
 
 .modal-backdrop.in {
 	opacity: 1.5 !important;
+}
+
+#detalharProdutos .modal-backdrop.in{
+	opacity: 0 !important;
 }
 
 .confirmAge{

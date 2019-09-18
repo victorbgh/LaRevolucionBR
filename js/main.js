@@ -269,7 +269,7 @@ $(window).on("scroll", function (e) {
 });
 
 function overAge(){
-	$('#myModal').modal('hide');
+	$('#confirmAgeModal').modal('hide');
 }
 
 function underAge(){

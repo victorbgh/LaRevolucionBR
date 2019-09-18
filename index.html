@@ -87,7 +87,7 @@
 									 diam posuere malesuada. Orci varius natoque penatibus et magnis dis parturient montes, 
 									 nascetur ridiculus mus. Nullam condimentum orci est, eget molestie arcu tincidunt non. 
 								</p>
-								<button class="btn btn-primary">Detales</button>
+								<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#detalharProdutos">Detales</button>
 							</div>
 					</div>
 			</div>
@@ -232,17 +232,15 @@
 	</script>
 	<script type="text/javascript">
 		$(window).load(function(){
-			$('#myModal').modal('show');
+			$('#confirmAgeModal').modal('show');
 		 });
    </script>
    
-<div class="modal fade" id="myModal" role="dialog" data-backdrop="static">
-	<!-- <div class="confirmAge"></div> -->
+<div class="modal fade" id="confirmAgeModal" role="dialog" data-backdrop="static">
 	<div class="text-center">
 			<img src="img/lioneadInverse.jpg" class="rounded" alt="..." height="410">
 		  </div>
 	<div class="container align-middle" style="">
-			<!-- <img src="img/lionInverse.jpg" alt="Lion face" width="42" height="42"> -->
 			<div class="row justify-content-center">
 			<h1 style="color: #fff !important; text-align: center;">Voce possui mais de 18 anos?</h1>
 		</div>
@@ -256,6 +254,27 @@
 		</div> 
 	</div>
 </div>
+
+<div class="modal fade" id="detalharProdutos" tabindex="-1" role="dialog" aria-labelledby="detalharProdutos" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLabel">Título do modal</h5>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+		  ...
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+		  <button type="button" class="btn btn-primary">Salvar mudanças</button>
+		</div>
+	  </div>
+	</div>
+  </div>
+  
 
 </body>
 </html>
