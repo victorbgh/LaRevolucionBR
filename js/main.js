@@ -275,3 +275,8 @@ function overAge(){
 function underAge(){
 	window.history.go(-1)
 }
+
+// $(document).ready(function() {
+// 	let formContact = $('#clients')
+// 	formContact.find('input[name="telefone"]').mask('(00) 0000-0000');
+// });

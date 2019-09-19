@@ -171,25 +171,25 @@
 							<h1 class="light-font">Envie sua mensagem</h1>
 							<p class="light-font"></p>
 						</div>
-						<form class="form-horizontal">
+						<form class="form-horizontal" action="https://www.enformed.io/8o8taas3" method="POST">
 							<div class="form-group">
-								<div class="col-sm-4" style="position:relative">
-									<input type="text" name="Name" data-new-placeholder="Qual seu nome?" class="form-control label_better" placeholder="Nome">
+								<div class="col-sm-4" style="position:relative" >
+									<input type="text" name="nome" data-new-placeholder="Qual seu nome?" class="form-control label_better" placeholder="Nome" required="required">
 								</div>
 								<div class="col-sm-4">
-									<input type="text" name="Email" class="form-control label_better" placeholder="Email">
+									<input type="text" name="email" class="form-control label_better" placeholder="Email" required="required">
 								</div>
 								<div class="col-sm-4">
-									<input type="text" name="Phone" class="form-control label_better" placeholder="Telefone">
+									<input type="tel" name="telefone" class="form-control label_better" placeholder="Telefone" required="required">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<textarea class="form-control label_better" placeholder="Seu comentario.." rows="7"></textarea>
+									<textarea name="comentario" class="form-control label_better" placeholder="Seu comentario.." rows="7" required="required"></textarea>
 								</div>
 							</div>
 							<div class="form-group commands">
-								<button class="btn btn-primary">Enviar</button>
+								<button type="submit" class="btn btn-primary" id="submit">Enviar</button>
 							</div>
 						</form>
 					</div>
@@ -234,14 +234,13 @@
    </script>
    
 <div class="modal fade confirmAgeModal" id="confirmAgeModal" role="dialog" data-backdrop="static">
-	<div class="row">
+	<div class="row" style="margin-bottom: 0px !important;">
 		<div class="text-center">
-			<img src="img/lioneadInverse.jpg" class="img-fluid" alt="..." height="410">
+			<img src="img/lioneadInverse.jpg" class="img-fluid" alt="..." height="310">
 		</div>
 	</div>
-	
-	<div class="container align-middle" style="">
-			<div class="row justify-content-center">
+	<div class="container align-middle">
+		<div class="row justify-content-center" style="margin-bottom: 20px !important;">
 			<h1 style="color: #fff !important; text-align: center;">Voce possui mais de 18 anos?</h1>
 		</div>
 		<div class="row">
