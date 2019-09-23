@@ -95,11 +95,11 @@ a:focus {
 }
 
 .home {
-	/* background: url(../img/lion.jpg	) no-repeat top fixed;
+	background: url(../img/lion.jpg	) no-repeat top fixed;
 	position: relative;
 	width: 100%;
 	position: relative;
-	background-size: 100%;  */
+	background-size: 100%; 
 }
 .slide {
 	position: absolute;
@@ -1049,7 +1049,7 @@ Forms
 ********************************************/
 
 .contact-form {
-	background: url('../img/contact-us.jpg') repeat-x center;
+	background: url('../img/contactus.jpg') repeat-x center;
 }
 .contact-form form {
 	position: relative;
@@ -1366,7 +1366,7 @@ RESPONSIVE
 	height: 400px !important;
 } */
 
-/* @media (max-width: 708px){
+@media (max-width: 708px){
 	.home{
 		height: 441px;
 	}
@@ -1376,7 +1376,7 @@ RESPONSIVE
 	.home{
 		height: 336px !important;
 	}
-} */
+}
 
 .fa-bars:before {
 	color: #ffe600 !important;
@@ -1385,144 +1385,17 @@ RESPONSIVE
 img.img-responsive { display: table-cell; max-width: 100%; }
 
 
-  /* NOTE: SLIDER CONFIG. */
-  .slider {
-	margin: 0 auto;
-	max-width: 100%;
-  }
-  
-  .slide_viewer {
-	height: 790px;
-	overflow: hidden;
-	position: relative;
-  }
-  
-  .slide_group {
-	height: 110%;
-	position: relative;
-	width: 100%;
-  }
-  
-  .slide {
-	display: none;
-	height: 100%;
-	position: absolute;
-	width: 100%;
-  }
-  
-  .slide:first-child {
-	display: block;
-  }
-  
-  .slide:nth-of-type(1) {
-	background-image: url('../img/plantacao.jpg');
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	max-width: 100% !important;
-  }
-  
-  .slide:nth-of-type(2) {
-	background-image: url('../img/lion.jpg');
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-  }
-  
-  .slide:nth-of-type(3) {
-	background-image: url('../img/lrvbanner.jpg');
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-  }
-  
-  /* .slide:nth-of-type(4) {
-	background: #D1D1D4;
-  } */
-  
-  .slide_buttons {
-	top: 590px;
-	left: 0;
-	position: absolute;
-	right: 0;
-	text-align: center;
-  }
-  
-  a.slide_btn {
-	color: #474544;
-	font-size: 42px;
-	margin: 0 0.175em;
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
-  }
-  
-  .slide_btn.active, .slide_btn:hover {
-	color: #428CC6;
-	cursor: pointer;
-  }
-  
-  .directional_nav {
-	height: 340px;
-	margin: 0 auto;
-	max-width: 100%;
-	position: relative;
-	/* top: -340px; */
-  }
-  
-  .previous_btn {
-	bottom: 0;
-	left: 100px;
-	margin: auto;
-	position: absolute;
-	top: 0;
-  }
-  
-  .next_btn {
-	bottom: 0;
-	margin: auto;
-	position: absolute;
-	right: 100px;
-	top: 0;
-  }
-  
-  .previous_btn, .next_btn {
-	cursor: pointer;
-	height: 65px;
-	opacity: 0.5;
-	-webkit-transition: opacity 0.4s ease-in-out;
-	-moz-transition: opacity 0.4s ease-in-out;
-	-ms-transition: opacity 0.4s ease-in-out;
-	-o-transition: opacity 0.4s ease-in-out;
-	transition: opacity 0.4s ease-in-out;
-	width: 65px;
-  }
-  
-  .previous_btn:hover, .next_btn:hover {
-	opacity: 1;
-  }
-  
-  @media only screen and (max-width: 767px) {
-	.previous_btn {
-	  left: 50px;
-	}
-	.next_btn {
-	  right: 50px;
-	}
-  }
-
-
-
 
 
 /* NOTE: TEXT SLIDER */
-  h1.main, p.demos {
+  h4.main, p.demos {
 	-webkit-animation-delay: 18s;
 	-moz-animation-delay: 18s;
 	-ms-animation-delay: 18s;
 	animation-delay: 18s;
 }
 .sp-container {
-	position: fixed;
+	position: relative;
 	top: 0px;
 	left: 0px;
 	width: 100%;
@@ -1541,13 +1414,13 @@ img.img-responsive { display: table-cell; max-width: 100%; }
 	top: 0px;
 	z-index: 1000;
 }
-.sp-container h2 {
+.sp-container h4 {
 	position: absolute;
 	top: 50%;
 	line-height: 100px;
 	height: 90px;
 	margin-top: -50px;
-	font-size: 90px;
+	font-size: 50px;
 	width: 100%;
 	text-align: center;
 	color: transparent;
@@ -1556,32 +1429,32 @@ img.img-responsive { display: table-cell; max-width: 100%; }
 	-ms-animation: blurFadeInOut 3s ease-in backwards;
 	animation: blurFadeInOut 3s ease-in backwards;
 }
-.sp-container h2.frame-1 {
-	-webkit-animation-delay: 0s;
-	-moz-animation-delay: 0s;
-	-ms-animation-delay: 0s;
-	animation-delay: 0s;
-}
-.sp-container h2.frame-2 {
+.sp-container h4.frame-1 {
 	-webkit-animation-delay: 3s;
 	-moz-animation-delay: 3s;
 	-ms-animation-delay: 3s;
 	animation-delay: 3s;
 }
-.sp-container h2.frame-3 {
+.sp-container h4.frame-2 {
 	-webkit-animation-delay: 6s;
 	-moz-animation-delay: 6s;
 	-ms-animation-delay: 6s;
 	animation-delay: 6s;
 }
-.sp-container h2.frame-4 {
-	font-size: 200px;
+.sp-container h4.frame-3 {
+	-webkit-animation-delay: 6s;
+	-moz-animation-delay: 6s;
+	-ms-animation-delay: 6s;
+	animation-delay: 6s;
+}
+.sp-container h4.frame-4 {
+	font-size: 50px;
 	-webkit-animation-delay: 9s;
 	-moz-animation-delay: 9s;
 	-ms-animation-delay: 9s;
 	animation-delay: 9s;
 }
-.sp-container h2.frame-5 {
+.sp-container h4.frame-5 {
 	-webkit-animation: none;
 	-moz-animation: none;
 	-ms-animation: none;
@@ -1589,7 +1462,7 @@ img.img-responsive { display: table-cell; max-width: 100%; }
 	color: transparent;
 	text-shadow: 0px 0px 1px #fff;
 }
-.sp-container h2.frame-5 span {
+.sp-container h4.frame-5 span {
 	-webkit-animation: blurFadeIn 3s ease-in 12s backwards;
 	-moz-animation: blurFadeIn 1s ease-in 12s backwards;
 	-ms-animation: blurFadeIn 3s ease-in 12s backwards;
@@ -1597,13 +1470,13 @@ img.img-responsive { display: table-cell; max-width: 100%; }
 	color: transparent;
 	text-shadow: 0px 0px 1px #fff;
 }
-.sp-container h2.frame-5 span:nth-child(2) {
+.sp-container h4.frame-5 span:nth-child(2) {
 	-webkit-animation-delay: 13s;
 	-moz-animation-delay: 13s;
 	-ms-animation-delay: 13s;
 	animation-delay: 13s;
 }
-.sp-container h2.frame-5 span:nth-child(3) {
+.sp-container h4.frame-5 span:nth-child(3) {
 	-webkit-animation-delay: 14s;
 	-moz-animation-delay: 14s;
 	-ms-animation-delay: 14s;
@@ -1612,11 +1485,10 @@ img.img-responsive { display: table-cell; max-width: 100%; }
 .sp-globe {
 	position: absolute;
 	width: 282px;
-	height: 273px;
+	height: 100px;
 	left: 50%;
 	top: 50%;
 	margin: -137px 0 0 -141px;
-	background: transparent url(http://web-sonick.zz.mu/images/sl/globe.png) no-repeat top left;
 	-webkit-animation: fadeInBack 3.6s linear 14s backwards;
 	-moz-animation: fadeInBack 3.6s linear 14s backwards;
 	-ms-animation: fadeInBack 3.6s linear 14s backwards;
