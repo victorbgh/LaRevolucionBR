@@ -1484,7 +1484,7 @@ img.img-responsive { display: table-cell; max-width: 100%; }
 }
 .sp-globe {
 	position: absolute;
-	width: 282px;
+	/* width: 282px; */
 	height: 100px;
 	left: 50%;
 	top: 50%;
