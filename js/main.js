@@ -269,7 +269,9 @@ $(window).on("scroll", function (e) {
 });
 
 function overAge(){
-	$('#confirmAgeModal').modal('hide');
+	setTimeout(() => {
+		$('#confirmAgeModal').modal('hide');
+	}, 300);
 }
 
 function underAge(){
