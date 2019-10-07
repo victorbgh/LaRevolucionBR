@@ -1764,3 +1764,10 @@ img.img-responsive { display: table-cell; max-width: 100%; }
 .modal{
 	overflow: hidden !important;
 }
+
+.lrvMenu{
+	font-weight: bold;
+	margin:15px 0 0 20px;
+	font-size: 4vw;
+	color: #FFF;
+}
