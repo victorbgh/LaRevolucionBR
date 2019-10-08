@@ -36,7 +36,8 @@
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><i class="fa fa-bars"></i></button>
-					<a class="navbar-brand animate imglogo" href="#"><img src="img/logoL.png" height="50" width="200"></a>
+					<!-- <a class="navbar-brand animate imglogo" href="#"><img src="img/logoL.png" height="50%" width="auto"></a> -->
+					<a class="navbar-brand animate imglogo lrvMenu" href="#">LRV</a>
 				</div>
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right animate">
@@ -60,9 +61,9 @@
 							<!-- <h4 class="frame-2">Dessa onça você pode ser amigo </h4> -->
 							<!-- <h4 class="frame-3">O tabaco do povo</h4> -->
 							<h4 class="frame-5">
-								<span></span>
-								<span><img src="img/logoL.png" class="img-fluid" alt="..." width="100%" height="auto"></span>
-								<br><span  style="font-family: 'Teko', sans-serif;">#amigosdaonça</span>
+								<!-- <span>Dessa onça você pode ser amigo!</span> -->
+								<span><img src="img/logoL.png" class="img-fluid image" alt="..." width="50%" height="auto"></span>
+								<!-- <br><span  style="font-family: 'Teko', sans-serif;">#amigosdaonça</span> -->
 								<!-- <span>#amigosdaonça</span> -->
 							</h4>
 						</div>
@@ -111,9 +112,7 @@
 							<div class="col-sm-12">
 								<div class="process-item ">
 									<h3>Missao</h3>
-									<p class="font-m">Sed maximus vel urna ut lacinia. Donec consectetur metus eu sagittis porttitor. 
-										Duis pellentesque ante vel egestas venenatis. Duis efficitur cursus nisi, 
-										vitae rhoncus quam dapibus non. Phasellus imperdiet porttitor laoreet.</p>
+									<p class="font-m">Palavras chaves - revolucionário, enaltecer qualidade e público seleto, visão ambientalista</p>
 								</div>
 							</div>
 						</div>
@@ -122,9 +121,7 @@
 							<div class="col-sm-12">
 								<div class="process-item delay1">
 									<h3>Visão</h3>
-									<p class="font-m">Etiam condimentum arcu libero, a mollis velit facilisis id. 
-										Donec lobortis auctor dolor vitae efficitur. Class aptent taciti sociosqu ad 
-										litora torquent per conubia nostra, per inceptos himenaeos. Duis a ante at nibh congue vehicula.</p>
+									<p class="font-m">Ser marca referência, representar o país no exterior.</p>
 								</div>
 							</div>
 						</div>
@@ -132,9 +129,7 @@
 								<div class="col-sm-12">
 									<div class="process-item delay3">
 										<h3>Valores</h3>
-										<p class="font-m">Maecenas eu eleifend nisi. Nulla quis dictum lorem. Morbi quis neque nisl. 
-											Sed volutpat maximus elit, at lacinia nulla luctus et. Aliquam semper lorem at neque 
-											lobortis pretium.</p>
+										<p class="font-m">Ética e transparência, legalidade, integridade, qualidade, parceria, cordialidade, melhoria continua, compromisso, responsabilidade.</p>
 									</div>
 								</div>
 							</div>
@@ -151,11 +146,11 @@
 				<div class="row" style="padding: 25px;">
 					<div class="container">
 
-						<div class="col-md-4 adress-element ">
+						<!-- <div class="col-md-4 adress-element ">
 							<i class="fa fa-facebook fa-2x"></i>
 							<h3>Facebook</h3>
 							<span class="font-l">LaRevolucion.br</span>
-						</div>
+						</div> -->
 						<div class="col-md-4 adress-element delay4">
 							<i class="fa fa-instagram fa-2x"></i>
 							<h3>Instagram</h3>
@@ -183,6 +178,11 @@
 								</div>
 								<div class="col-sm-6">
 									<input type="text" name="email" class="form-control label_better" placeholder="Email" required="required">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input type="text" name="assunto" data-new-placeholder="Assunto da mensagem" class="form-control label_better" placeholder="Assunto" required="required"> 
 								</div>
 							</div>
 							<div class="form-group">
@@ -239,20 +239,16 @@
 <div class="modal fade confirmAgeModal" id="confirmAgeModal" role="dialog" data-backdrop="static">
 	<div class="row" style="margin-bottom: 0px !important;">
 		<div class="text-center">
-			<img src="img/lioneadInverse.jpg" class="img-fluid" alt="..." height="310">
+			<img src="img/lioneadInverse.jpg" class="img-fluid" alt="..."  width="50%" height="auto">
 		</div>
 	</div>
 	<div class="container align-middle">
 		<div class="row justify-content-center" style="margin-bottom: 20px !important;">
-			<h1 style="color: #fff !important; text-align: center;">Voce possui mais de 18 anos?</h1>
+			<h1 style="color: #fff !important; text-align: center; margin-top: 5%;">Você possui mais de 18 anos?</h1>
 		</div>
-		<div class="row">
-			<div class="col-sm-6 col-md-6">
-				<button class="center-block text-center btn btn-success" onclick="overAge()">Sim</button>
-			</div>
-			<div class="col-sm-6 col-md-6">
-				<button class="center-block text-center btn btn-danger" onclick="underAge()">Não</button>
-			</div>
+		<div class="row commands">
+			<button class="text-center btn btn-success" onclick="overAge()" style="margin-right: 30px;">Sim</button>
+			<button class="text-center btn btn-danger" onclick="underAge()" style="margin-left: 30px;">Não</button>
 		</div> 
 	</div>
 </div>
@@ -267,7 +263,11 @@
 		  </button>
 		</div>
 		<div class="modal-body">
-		  ...
+		  <h6>Tabaco La Revolución</h6>
+		  <p>- Tabaco orgânico</p>
+		  <p>- Destalado</p>
+		  <p>- Golden Virgina</p>
+		  <p>- 30g</p>
 		</div>
 		<div class="modal-footer">
 		  <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
