@@ -71,7 +71,8 @@ a:focus {
 }
 
 .navbar-small #lrv{
-	font-size: 3vw;
+	/* background: url('../img/lionNoBg.png') no-repeat; */
+	/* font-size: 3vw; */
 }
 
 .nav > li > a {
@@ -1364,11 +1365,11 @@ RESPONSIVE
 	position: relative;
 }
 
-/* .imglogo{
-	background-image: url('../img/logoL.png') no-repeat;
-	width: 800px !important;
-	height: 400px !important;
-} */
+.imglogo{
+	background-image: url('../img/lionNoBg.png') no-repeat;
+	width: 50px !important;
+	height: 30px !important;
+}
 
 @media (max-width: 708px){
 	.home{
@@ -1736,6 +1737,24 @@ img.img-responsive { display: table-cell; max-width: 100%; }
 	}
 }
 
+@media (max-width: 377px){
+	#home{
+		height: 280px !important;
+	}
+}
+
+@media (max-width: 300px){
+	#home{
+		height: 230px !important;
+	}
+}
+
+@media (max-width: 363px){
+	#home{
+		height: 245px !important;
+	}
+}
+
 /* IMAGE HOVER */
 
 .image{
@@ -1774,7 +1793,7 @@ img.img-responsive { display: table-cell; max-width: 100%; }
 	margin:15px 0 0 20px;
 	font-size: 4vw;
 	color: #FFF;
-	background-image: url('../img/lionNoBg.png') no-repeat;
+	/* background-image: url('../img/lionNoBg.png') no-repeat; */
 	width: 50px;
-	height: auto;
+	height: 50px;
 }

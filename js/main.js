@@ -271,7 +271,7 @@ $(window).on("scroll", function (e) {
 function overAge(){
 	setTimeout(() => {
 		$('#confirmAgeModal').modal('hide');
-	}, 300);
+	}, 400);
 }
 
 function underAge(){
