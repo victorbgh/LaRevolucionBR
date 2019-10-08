@@ -70,6 +70,10 @@ a:focus {
 	padding: 5px 15px 0 0;
 }
 
+.navbar-small #lrv{
+	font-size: 3vw;
+}
+
 .nav > li > a {
 	padding: 0;
 }
@@ -1416,7 +1420,7 @@ img.img-responsive { display: table-cell; max-width: 100%; }
 }
 .sp-container h4 {
 	position: absolute;
-	top: 50%;
+	top: 30%;
 	line-height: 100px;
 	height: 90px;
 	margin-top: -50px;
@@ -1770,4 +1774,7 @@ img.img-responsive { display: table-cell; max-width: 100%; }
 	margin:15px 0 0 20px;
 	font-size: 4vw;
 	color: #FFF;
+	background-image: url('../img/lionNoBg.png') no-repeat;
+	width: 50px;
+	height: auto;
 }
