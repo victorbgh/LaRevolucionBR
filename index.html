@@ -8,6 +8,9 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Allura&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
 
 
 	<link rel="stylesheet" href="css/bootstrap.css">
@@ -16,6 +19,8 @@
 	<link rel="stylesheet" href="css/jquery.bxslider.css">
 	<script src="js/modernizr.custom.js"></script>
 	<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+
 	<!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -31,45 +36,77 @@
 		</div>
 	</div>
 	<div class="loading" id="wrapper">
-		<!-- Fixed navbar -->
-		<div class="navbar navbar-smak navbar-fixed-top " id="navbar" role="navigation">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><i class="fa fa-bars"></i></button>
-					<a class="navbar-brand animate imglogo lrvMenu" id="lrv" href="#">
-						<span class="img-logo"></span>
-					</a>
-				</div>
-				<div class="navbar-collapse collapse">
-					<ul class="nav navbar-nav navbar-right animate">
-						<li><a href="#home">Inicio</a></li>
-						<li><a href="#aboutus">Sobre</a></li>
-						<li><a href="#services">Missão e Valores</a></li>
-						<li><a href="#clients">Contato</a></li>
-					</ul>
-				</div>
-				<!--/.nav-collapse -->
+			<div class="navbar navbar-smak navbar-fixed-top " id="navbar" role="navigation">
+					<div class="container">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><i class="fa fa-bars"></i></button>
+							<a class="navbar-brand animate imglogo lrvMenu" id="lrv" href="#">
+								<span class="img-logo"></span>
+							</a>
+						</div>
+						<div class="navbar-collapse collapse">
+							<ul class="nav navbar-nav navbar-right animate">
+								<li><a href="#first">Inicio</a></li>
+								<li><a href="#aboutus">Sobre</a></li>
+								<li><a href="#services">Missão e Valores</a></li>
+								<li><a href="#clients">Contato</a></li>
+							</ul>
+						</div>
+					</div>
 			</div>
-		</div>
-		<div style="position: fixed; z-index: -99; width: 100%; height: 100%"></div>
-		<section id="home" class="home home-fullscreen">
-				
 
-				<div class="sp-container">
-						<div class="sp-content">
-							<div class="sp-globe"></div>
+
+			<section id="first">
+				<div class="hero-slider" data-carousel>
+						<div class="carousel-cell" style="background-image:url(img/lion.jpg);">
+						  <div class="overlay"></div>
+						  <div class="inner">
+							<h3 class="subtitle">A revolução chegou!</h3>
+							<h2 class="title">Dessa Onça você pode ser amigo!</h2>
+							<a href="#aboutus" target="_blank" class="btn">Saiba mais</a>
+						  </div>
+						</div>
+					  	<div class="carousel-cell" style="background-image:url(img/lrv-slide.jpg);">
+						  <div class="overlay"></div>
+						  <div class="inner">
+							<h3 class="subtitle">Mudamos o conceito da expressão</h3>
+							<h2 class="title">#amigodaonca</h2>
+							<!-- <a href="https://flickity.metafizzy.co/" target="_blank" class="btn">Tell me more</a> -->
+						  </div>
+						</div>
+					  	<!-- <div class="carousel-cell" style="background-image:url(https://68.media.tumblr.com/3beb13a4167aa8b5c4743eac17bf351c/tumblr_o8nyvtiHfC1slhhf0o1_1280.jpg);">
+						  <div class="overlay"></div>
+						  <div class="inner">
+							<h3 class="subtitle">Slide 3</h3>
+							<h2 class="title">Flickity Parallax</h2>
+							<a href="https://flickity.metafizzy.co/" target="_blank" class="btn">Tell me more</a>
+						  </div>
+						</div> -->
+				</div>
+			</section>
+		<!-- </section> -->
+					  
+				  
+		
+		<!-- <div style="position: fixed; z-index: -99; width: 100%; height: 100%"></div> -->
+		<!-- <section id="home" class="home home-fullscreen"> -->
+				<!--  -->
+<!--  -->
+				<!-- <div class="sp-container"> -->
+						<!-- <div class="sp-content"> -->
+							<!-- <div class="sp-globe"></div> -->
 							<!-- <h4 class="frame-1"></h4> -->
 							<!-- <h4 class="frame-2">Dessa onça você pode ser amigo </h4> -->
 							<!-- <h4 class="frame-3">O tabaco do povo</h4> -->
-							<h4 class="frame-5">
+							<!-- <h4 class="frame-5"> -->
 								<!-- <span>Dessa onça você pode ser amigo!</span> -->
-								<span><img src="img/logoL.png" class="img-fluid image" alt="..." width="50%" height="auto"></span>
+								<!-- <span><img src="img/logoL.png" class="img-fluid image" alt="..." width="50%" height="auto"></span> -->
 								<!-- <br><span  style="font-family: 'Teko', sans-serif;">#amigosdaonça</span> -->
 								<!-- <span>#amigosdaonça</span> -->
-							</h4>
+							<!-- </h4>
 						</div>
-					</div>
-
+					</div> -->
+<!-- 
 			<a href="#aboutus" class="go-to godown" style="z-index: 1024">
 				<span>
 					<span class="fa fa-angle-double-down fa-2x"></span>
@@ -79,7 +116,7 @@
 					<span class="fa fa-angle-double-down fa-2x"></span>
 				</span>
 			</a>
-		</section>
+		</section> -->
 		<section id="aboutus" class="gray">
 			<div class="container ">
 					<div class="container pad-bot-50">
@@ -208,7 +245,7 @@
 		<footer>
 			<div class="container">
 				<p>&copy; Copyright La Revolución 2019 Todos os direitos reservados</p>
-				<a href="#home" class="square-l goup" style="position: relative">
+				<a href="#first" class="square-l goup" style="position: relative">
 					<span>
 						<span class="fa fa-angle-double-up fa-2x"></span>
 						<span class="fa fa-angle-double-up fa-2x"></span>
