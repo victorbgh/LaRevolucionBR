@@ -286,7 +286,7 @@ function underAge(){
 
 var options = {
 	prevNextButtons: false,
-	autoPlay: 3000,
+	autoPlay: 2500,
 	freeScroll: true,
 	wrapAround: true,
 	accessibility: true,

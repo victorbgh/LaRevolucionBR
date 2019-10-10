@@ -1830,12 +1830,12 @@ img.img-responsive { display: table-cell; max-width: 100%; }
   }
   .hero-slider .carousel-cell .inner .subtitle {
 	font-family: 'Roboto Slab', serif;
-	font-size: 2.2rem;
+	font-size: 2.2em;
 	line-height: 1.2em;
 	font-weight: 200;
 	font-style: italic;
 	letter-spacing: 3px;
-	color: rgba(255, 255, 255, 0.5);
+	color: rgba(255, 255, 255, 255);
 	margin-bottom: 5px;
   }
   .hero-slider .carousel-cell .inner .title {
