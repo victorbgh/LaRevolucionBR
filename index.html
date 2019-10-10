@@ -38,8 +38,10 @@
 					<div class="container">
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><i class="fa fa-bars"></i></button>
-							<a class="navbar-brand animate imglogo lrvMenu" id="lrv" href="#">
-								<span class="img-logo"></span>
+							<a class="navbar-brand animate imglogo lrvMenu" id="lrv">
+								<span class="img-logo">
+									<img src="img/lionNoBg.png" height="auto" width="50">&nbsp;<img src="img/lrv1-1.png" width="200" height="auto">
+								</span>
 							</a>
 						</div>
 						<div class="navbar-collapse collapse">
@@ -280,17 +282,17 @@
    
 <div class="modal fade confirmAgeModal" id="confirmAgeModal" role="dialog" data-backdrop="static">
 	<div class="row" style="margin-bottom: 0px !important;">
-		<div class="text-center">
-			<img src="img/lioneadInverse.jpg" class="img-fluid" alt="..."  width="35%" height="auto">
+		<div class="text-center container">
+			<img src="img/lioneadInverse.jpg" class="img-responsive" alt="..." style="display: inline-block !important;" >
 		</div>
 	</div>
 	<div class="container align-middle">
-		<div class="row justify-content-center" style="margin-bottom: 20px !important;">
+		<div class="row justify-content-center"  style="margin-bottom: 0px !important;">
 			<h1 style="color: #fff !important; text-align: center; margin-top: 5%;">Você possui mais de 18 anos?</h1>
 		</div>
 		<div class="row commands">
-			<button class="text-center btn btn-success" onclick="overAge()" style="margin-right: 30px;">Sim</button>
-			<button class="text-center btn btn-danger" onclick="underAge()" style="margin-left: 30px;">Não</button>
+			<button class="text-center btn btn-success" onclick="overAge()" style="margin-right: 30px; width: 30%;">Sim</button>
+			<button class="text-center btn btn-danger" onclick="underAge()" style="margin-left: 30px;  width: 30%;">Não</button>
 		</div> 
 	</div>
 </div>

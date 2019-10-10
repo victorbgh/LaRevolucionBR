@@ -286,12 +286,14 @@ function underAge(){
 
 var options = {
 	prevNextButtons: false,
-	autoPlay: 2500,
-	freeScroll: true,
+	pauseAutoPlayOnHover: false,
+	autoPlay: 6000,
+	freeScroll: false,
 	wrapAround: true,
 	accessibility: true,
 	pageDots: true,
 	setGallerySize: false,
+	
 	// arrowShape: {
 	//   x0: 10,
 	//   x1: 60,
