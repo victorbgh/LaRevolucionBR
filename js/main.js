@@ -278,10 +278,17 @@ function underAge(){
 	window.history.go(-1)
 }
 
-// $(document).ready(function() {
-// 	let formContact = $('#clients')
-// 	formContact.find('input[name="telefone"]').mask('(00) 0000-0000');
-// });
+$(document).ready(function() {
+	function onUpdateReady() {
+		// alert('found new version!');
+		Location.reload(true);
+	}
+
+	  window.applicationCache.addEventListener('updateready', onUpdateReady);
+	  if(window.applicationCache.status === window.applicationCache.UPDATEREADY) {
+		onUpdateReady();
+	  }
+});
 
 
 var options = {
