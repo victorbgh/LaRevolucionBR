@@ -422,8 +422,8 @@ cursor: pointer;
 	color: #fff;
 }
 .masked {
-	background: rgba(19, 19, 22, 0.5);
-	/* background-image: url('../img/patern.png'); */
+	background: rgba(19, 19, 22, 0);
+	background-image: url('../img/patern.png');
 	width: 100%;
 	height: 100%;
 	display: block;
@@ -451,11 +451,10 @@ blockquote {
 background-attachment: fixed;
 }
 .process {
-	background: url('../img/tabaco1.jpg') 0px 0px no-repeat;
-	
-background-size: cover;
-background-attachment: fixed;
-
+	/* background: url('../img/tabaco1.jpg') 0px 0px no-repeat; */
+	background: url('../img/mev.jpg') 0px 0px no-repeat;	
+	background-size: cover;
+	background-attachment: fixed;
 }
 .skills {
 	background-image: url('../img/skills.jpg');
@@ -1150,7 +1149,7 @@ footer .to-top {
 	width: 10px;
 	height: 10px;
 	margin: 25px auto;
-	background: #000000;
+	background: #ffe600;
 	-moz-border-radius: 50px;
 	-moz-animation: bubblingG 1.3s infinite alternate;
 	-webkit-border-radius: 50px;
@@ -1187,7 +1186,7 @@ footer .to-top {
 	0% {
 		width: 10px;
 		height: 10px;
-		background-color: #000000;
+		background-color: #ffe600;
 		-moz-transform: translateY(0);
 	}
 	100% {
@@ -1201,7 +1200,7 @@ footer .to-top {
 	0% {
 		width: 10px;
 		height: 10px;
-		background-color: #000000;
+		background-color: #ffe600;
 		-webkit-transform: translateY(0);
 	}
 	100% {
@@ -1215,7 +1214,7 @@ footer .to-top {
 	0% {
 		width: 10px;
 		height: 10px;
-		background-color: #000000;
+		background-color: #ffe600;
 		-ms-transform: translateY(0);
 	}
 	100% {
@@ -1229,7 +1228,7 @@ footer .to-top {
 	0% {
 		width: 10px;
 		height: 10px;
-		background-color: #000000;
+		background-color: #ffe600;
 		-o-transform: translateY(0);
 	}
 	100% {
@@ -1243,7 +1242,7 @@ footer .to-top {
 	0% {
 		width: 10px;
 		height: 10px;
-		background-color: #000000;
+		background-color: #ffe600;
 		transform: translateY(0);
 	}
 	100% {
@@ -1306,7 +1305,7 @@ RESPONSIVE
 
 .loader{
 	display: block;
-	background: #ffe600;
+	background: #d9d5d4;
 	position:fixed; 
 	top:0; left:0; right:0; bottom:0;
 	width:100%; 
@@ -1851,7 +1850,7 @@ img.img-responsive { display: table-cell; max-width: 100%; }
 	padding: 14px 18px;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 0.8rem;
+	font-size: 1.3rem;
 	letter-spacing: 3px;
 	color: #fff;
 	text-decoration: none;
@@ -1892,3 +1891,16 @@ img.img-responsive { display: table-cell; max-width: 100%; }
 	display: flex;
 	align-items: center;
   }
+
+  .lrvColorSlider{
+	  color: #cfd1d3 !important;
+  }
+
+  .lrvFont{
+	font-family: 'Monoton', cursive !important;
+}
+
+.lrvFontSubTittle{
+	font-family: 'IBM Plex Mono', monospace !important;
+
+}
