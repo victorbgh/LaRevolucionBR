@@ -253,7 +253,7 @@ window.onload = function() {
 	}, 2000);
  	setTimeout(function(){
 		$('.loader').remove();
-	}, 1500)
+	}, 3000)
  
 };
 //What happen on window resize
@@ -274,7 +274,7 @@ function overAge(){
 	}, 400);
 }
 
-function underAge(){
+function historyBack(){
 	window.history.go(-1)
 }
 
