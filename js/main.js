@@ -253,7 +253,7 @@ window.onload = function() {
 	}, 2000);
  	setTimeout(function(){
 		$('.loader').remove();
-	}, 3000)
+	}, 1500)
  
 };
 //What happen on window resize
@@ -292,7 +292,7 @@ $(document).ready(function() {
 
 
 var options = {
-	prevNextButtons: false,
+	prevNextButtons: true,
 	pauseAutoPlayOnHover: false,
 	autoPlay: 6000,
 	freeScroll: false,
@@ -301,14 +301,14 @@ var options = {
 	pageDots: true,
 	setGallerySize: false,
 	
-	// arrowShape: {
-	//   x0: 10,
-	//   x1: 60,
-	//   y1: 50,
-	//   x2: 60,
-	//   y2: 45,
-	//   x3: 15
-	// }
+	arrowShape: {
+	  x0: 10,
+	  x1: 60,
+	  y1: 50,
+	  x2: 60,
+	  y2: 45,
+	  x3: 15
+	}
   };
   
   var carousel = document.querySelector('[data-carousel]');
