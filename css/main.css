@@ -452,7 +452,7 @@ background-attachment: fixed;
 }
 .process {
 	/* background: url('../img/tabaco1.jpg') 0px 0px no-repeat; */
-	background: url('https://imagizer.imageshack.com/v2/xq90/923/fDR11B.jpg') 0px 0px no-repeat;	
+	background: url('https://i.imgur.com/qkwr9An.jpg') 0px 0px no-repeat;	
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -1053,7 +1053,7 @@ Forms
 ********************************************/
 
 .contact-form {
-	background: url('https://imagizer.imageshack.com/v2/xq90/922/c64NbT.jpg') repeat-x center;
+	background: url('https://i.imgur.com/KGZkkuM.jpg') repeat-x center;
 }
 .contact-form form {
 	position: relative;
@@ -1364,24 +1364,6 @@ RESPONSIVE
 	position: relative;
 }
 
-.imglogo{
-	/* background-image: url('../img/lionNoBg.png') no-repeat;
-	width: 50px !important;
-	height: 30px !important; */
-}
-
-/* @media (max-width: 708px){
-	.home{
-		height: 441px;
-	}
-} */
-
-/* @media (max-width: 414px){
-	.home{
-		height: 336px !important;
-	}
-} */
-
 .fa-bars:before {
 	color: #ffe600 !important;
 }
@@ -1681,79 +1663,6 @@ img.img-responsive { display: table-cell; max-width: 100%; }
 	}
 }
 
-@media (max-width: 2560px){
-	#home{
-		height: 1924px !important;
-	}
-}
-
-@media (max-width: 1440px){
-	#home{
-		height: 1082px !important;
-	}
-}
-
-@media (max-width: 1024px){
-	#home{
-		height: 769px !important;
-	}
-}
-
-@media (max-width: 768px){
-	#home{
-		height: 588px !important;
-	}
-}
-
-@media (max-width: 425px){
-	#home{
-		height: 320px !important;
-	}
-	.sp-container h4{
-		line-height: 80px;
-	}
-}
-
-@media (max-width: 375px){
-	.sp-container h4 {
-		top: 33% !important;
-		font-size: 30px;
-	}
-	#home{
-		height: 280px !important;
-	}
-}
-
-@media (max-width: 320px){
-	.sp-container h4 {
-		top: 48% !important;
-		font-size: 30px !important;
-		line-height: 60px !important;
-	}
-
-	#home{
-		height: 240px !important;
-	}
-}
-
-@media (max-width: 377px){
-	#home{
-		height: 280px !important;
-	}
-}
-
-@media (max-width: 300px){
-	#home{
-		height: 230px !important;
-	}
-}
-
-@media (max-width: 363px){
-	#home{
-		height: 245px !important;
-	}
-}
-
 /* IMAGE HOVER */
 
 .image{
@@ -1785,16 +1694,6 @@ img.img-responsive { display: table-cell; max-width: 100%; }
 
 .modal{
 	overflow-x: hidden !important;
-}
-
-.lrvMenu{
-	/* font-weight: bold;
-	margin:15px 0 0 20px;
-	font-size: 4vw;
-	color: #FFF; */
-	/* background-image: url('../img/lionNoBg.png') no-repeat; */
-	/* width: 50px;
-	height: 50px; */
 }
 
 /* NOTE: SLIDER  */
