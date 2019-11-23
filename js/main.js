@@ -312,7 +312,7 @@ var options = {
   };
   
   var carousel = document.querySelector('[data-carousel]');
-  var slides = document.getElementsByClassName('carousel-cell');
+  var slides = document.getElementsByClassName('#first carousel-cell');
   var flkty = new Flickity(carousel, options);
   
   flkty.on('scroll', function () {
@@ -322,3 +322,65 @@ var options = {
 	//   image.style.backgroundPosition = x + 'px';
 	});
   });
+
+
+
+
+  
+//   var carousel = document.querySelector('[data-carousel-lrv]');
+//   var slides = document.getElementsByClassName('carousel-cell-lrv');
+//   var flkty = new Flickity(carousel, options);
+  
+//   flkty.on('scroll', function () {
+// 	flkty.slides.forEach(function (slide, i) {
+// 	  var image = slides[i];
+// 	  var x = (slide.target + flkty.x) * -1/3;
+// 	//   image.style.backgroundPosition = x + 'px';
+// 	});
+//   });
+
+// external js: flickity.pkgd.js
+
+// external js: flickity.pkgd.js
+var options = {
+	prevNextButtons: true,
+	pauseAutoPlayOnHover: false,
+	autoPlay: 6000,
+	freeScroll: false,
+	wrapAround: true,
+	accessibility: true,
+	pageDots: true,
+	setGallerySize: false,
+	fullscreen: true,
+	
+	arrowShape: {
+	  x0: 10,
+	  x1: 60,
+	  y1: 50,
+	  x2: 60,
+	  y2: 45,
+	  x3: 15
+	}
+  };
+  
+  var carousel = document.querySelector('[data-carousel-lrv]');
+  var slides = document.getElementsByClassName('#revolucao carousel-cell');
+  var flkty = new Flickity(carousel, options);
+  
+  flkty.on('scroll', function () {
+	flkty.slides.forEach(function (slide, i) {
+	  var image = slides[i];
+	  var x = (slide.target + flkty.x) * -1/3;
+	//   image.style.backgroundPosition = x + 'px';
+	});
+  });
+  
+  function openInsta() {
+    window.open('https://www.instagram.com/larevolucion.br/', '_blank');
+}
+
+function rolar_para(elemento) {
+	$('html, body').animate({
+	  scrollTop: $(elemento).offset().top
+	}, 1500);
+  }
