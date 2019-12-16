@@ -284,10 +284,10 @@ $(document).ready(function() {
 		Location.reload(true);
 	}
 
-	  window.applicationCache.addEventListener('updateready', onUpdateReady);
-	  if(window.applicationCache.status === window.applicationCache.UPDATEREADY) {
-		onUpdateReady();
-	  }
+	//   window.applicationCache.addEventListener('updateready', onUpdateReady);
+	//   if(window.applicationCache.status === window.applicationCache.UPDATEREADY) {
+	// 	onUpdateReady();
+	//   }
 });
 
 
