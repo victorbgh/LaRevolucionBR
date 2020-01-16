@@ -279,6 +279,11 @@ function historyBack(){
 }
 
 $(document).ready(function() {
+
+	if(window.location.hash) {
+        history.replaceState(null, null, ' ');
+	  }
+	  
 	function onUpdateReady() {
 		// alert('found new version!');
 		Location.reload(true);
