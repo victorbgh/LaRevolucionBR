@@ -452,7 +452,7 @@ background-attachment: fixed;
 }
 .process {
 	/* background: url('../img/tabaco1.jpg') 0px 0px no-repeat; */
-	background: url('https://i.imgur.com/qkwr9An.jpg') 0px 0px no-repeat;	
+	background: url('../img/mev.jpg') 0px 0px no-repeat;	
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -1063,7 +1063,7 @@ Forms
 ********************************************/
 
 .contact-form {
-	background: url('https://i.imgur.com/KGZkkuM.jpg') repeat-x center;
+	background: url('../img/contactus.jpg') repeat-x center;
 }
 .contact-form form {
 	position: relative;
